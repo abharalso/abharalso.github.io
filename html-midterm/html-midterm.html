@@ -1,11 +1,14 @@
 <!DOCTYPE html> <!--1: Missing doctype-->
-<html language="en"> <!--2: HTML tag should be outside head tag-->
+<html lang="en"> <!--2: HTML tag should be outside head tag. Syntax of language was also incorrect (changed from language to lang)-->
 <head>
+	<meta charset="UTF-8"> <!--3:Character type was not defined-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--4:Document was missing this setup line-->
     <title>Error-Filled Page</title>
+</head> <!--Missing closing tag for head-->
 <body>
-    <h1>Welcome to My Error-Filled Page</h1> <!--3: There should be a closing h1 tag-->
+    <h1>Welcome to My Error-Filled Page</h1> <!--5: There should be a closing h1 tag-->
     
-    <p>This is a paragraph with mismatched tags and missing closing tags.</p> <!--4:There should be an opening p tag-->
+    <p>This is a paragraph with mismatched tags and missing closing tags.</p> <!--6:There should be an opening p tag-->
     
     <ol>
         <li>Item 1</li>
@@ -18,13 +21,13 @@
         <li>Item 8</li>
         <li>Item 9</li>
         <li>Item 10</li>
-	</ol> <!--The list cannot be an ordered and an unordered list, I changed the closing tag to match the top-->
+	</ol> <!--7:The list cannot be an ordered and an unordered list, I changed the closing tag to match the top-->
 
-    <p>This is another paragraph without proper indentation.<p> <!--Added a closing tag to this paragraph-->
+    <p>This is another paragraph without proper indentation.<p> <!--8:Added a closing tag to this paragraph-->
     
-    <img src="image.jpg">
+    <img src="image.jpg" alt="Image"> <!--9:Missing alt in image tag-->
 
-    <a href="https://www.example.com" target="_blank">Click me!</img>
+    <a href="https://www.example.com" target="_blank">Click me!</a> <!--10:Changed image closing tag to <a> closing tag-->
 
     <table>
         <tr>
@@ -33,30 +36,31 @@
         </tr>
         <tr>
             <td>John</td>
-            <td>25<td>
+            <td>25</td> <!--11:Missing closing slash in td -->
         </tr>
         <tr>
             <td>Jane</td>
             <td>30</td>
         </tr>
-    
-    <img source="error.jpeg" alt="Error Image">
+    </table>
+    <img src="error.jpeg" alt="Error Image"> <!--12:Changed "source to src"-->
 
-    <center>This is centered text.</center>
+    <p style="text-align: center;">This is centered text.</p> <!--13:center is not supported in html5, changed to style attribute-->
 
-    <p bgcolor="lightgray">Text</p>
+    <p style="background-color: lightgrey;">Text</p> <!--14:bgcolor tag is not supported in html5, changed to style attribute-->
 
     <input type="button" value="Click me">
 
-    <!-- This is an unclosed comment--> <!--Closed this comment-->
+    <!-- This is an unclosed comment--> <!--15:Closed this comment-->
 
-    <a href="#">Link without closing tag</a> <!--Added closing tag to this link-->
+    <a href="#">Link without closing tag</a> <!--16: Added closing tag to this link-->
 
-    <p><em>Underlined text</em></p> <!--Mismatched tags, I closed the em tag first and the the paragraph tag second-->
+    <p><u>Underlined text</u></p> <!--17 and 18: Changed <em> tag to <u> tag for underlined. Then fixed the mismatched tags, closing the <u> tag first and the the paragraph tag second-->
+
 
     <dl>
-        <li>Descriptive Item Title</li>
-        <li>Descriptive Item Text</li>
+        <dt>Descriptive Item Title</dt> <!--19: Changed <li> tag to <dt> tag which is the correct syntax for a description list title-->
+        <dd>Descriptive Item Text</dd> <!--20: Changed <li> tag to <dd> tag which the correct syntax for a description list description-->
     </dl>
 </body>
 </html>
