@@ -1,0 +1,75 @@
+.score1 {
+	position: absolute; 
+  }
+  
+  .overlay_0 {
+	left: 0;
+	top: 0;
+	margin: 10px;
+	background: black;
+	font-size: 0.75em;
+	text-indent: 5px;
+  }
+.score2{
+	position:absolute;
+	background-color: black;
+	float:right;
+	right: 0;
+	top: 0;
+	margin: 10px;
+	font-size: 0.75em;
+	text-indent: 5px;
+}
+
+#section1{
+	background-color:navy;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	height:50px;
+	width: 200px;
+	font-size: 1.5em;
+	text-indent: 5px;
+}
+#section2{
+	background-color: navy;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	height:50px;
+	width: 200px;
+	font-size: 1.5em;
+	text-indent: 5px;
+}
+
+ 
+
+
+.extraScore{
+	font-size: 0.75em;
+	color: rgb(166, 161, 161);
+	font-style: italic;
+	float:right;
+	margin-right: 5px;
+}
+
+
+body, html {
+	height: 100%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+	color: white;
+  }
+  
+.background {
+	/* The image used */
+	background-image: url("speedclimbing.jpeg");
+  
+	/* Full height */
+	height: 100%;
+  
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
