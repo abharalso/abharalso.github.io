@@ -1,0 +1,54 @@
+@media only screen and (max-device-width: 599px)
+{
+	#narrowScreen{
+		background-color: purple;
+	}
+}
+@media only screen and (min-device-width: 600px)
+{
+	#narrowScreen{
+		background-color: green;
+	}
+}
+
+@media only screen and (min-device-width: 800px)
+{
+	#wideScreen{
+		background-color: lightblue;
+	}
+}
+@media only screen and (max-device-width: 799px)
+{
+	#wideScreen{
+		background-color: red;
+	}
+}
+
+@media only screen and (max-device-height: 499px)
+{
+	#shortScreen{
+		background-color: yellow;
+	}
+}
+@media only screen and (min-device-height: 500px)
+{
+	#shortScreen{
+		background-color: turquoise;
+	}
+}
+
+
+@media only screen and (min-device-height: 800px)
+{
+	#tallScreen{
+		background-color: orange;
+	}
+}
+
+@media only screen and (max-device-height: 799px)
+{
+	#tallScreen{
+		background-color: lavender;
+	}
+}
+

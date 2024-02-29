@@ -1,0 +1,73 @@
+body{
+    background-color: olive;
+}
+
+
+#flex-parent{
+    background-color: orangered;
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20%;
+}
+#flex-parent p{
+    padding:5vw;
+	display: flex;
+}
+
+#flex-child1{
+     flex: 3;
+}
+#flex-child2{
+	flex: 4;
+ 
+}
+#flex-child3{
+	flex: 2;
+}
+#flex-child4{
+	flex: 1;
+}
+
+
+#grid-parent{
+	display: grid;
+	grid-template-columns: 20% 20% 20%;
+	grid-template-rows: 20% 20% 20%;
+
+}
+
+#grid-parent h1{
+    background-color: grey;
+    padding:3vw 5vh;
+    margin:5vw;
+    
+}
+#no0{
+    
+}
+#no1{
+
+}
+#no2{
+
+}
+#no3{
+
+}
+#no4{
+
+}
+#no5{
+
+}
+#no6{
+
+}
+#no7{
+
+}
+#no8{
+
+}
+#no9{
+
+}
