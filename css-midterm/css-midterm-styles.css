@@ -1,0 +1,24 @@
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.introduction{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: beige;
+}
+#introPicture{
+	width: 80%;
+}
+#wrap{
+	width: 70%;
+	margin-right: 10px;
+	margin-left: 20px;
+}
+.concert{
+	background-color: lightgrey;
+}
+#details{
+	display: flex;
+	flex-direction: row;
+}
