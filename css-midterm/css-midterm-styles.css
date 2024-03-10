@@ -1,11 +1,21 @@
 body{
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.title{
+	top: 0;
+	position: sticky;
+	background-color: white;
+	text-align: center;
 }
 .introduction{
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 	background-color: beige;
+	border-radius: 10px;
+	height: 80%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 #introPicture{
 	width: 80%;
@@ -17,8 +27,27 @@ body{
 }
 .concert{
 	background-color: lightgrey;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	transition: 2s;
+	width:80%;
+	height:80%;
+	display:flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+}
+.concert:hover{
+	background-color: azure;
 }
 #details{
 	display: flex;
 	flex-direction: row;
+}
+ul {
+	list-style-type: none;
+	margin-left: 0;
+	padding:0;
 }
