@@ -24,7 +24,7 @@ function result() {
 	newStory=newStory.replaceAll(":insertz:",itemZ);
   if(customName.value !== '') {
     const name = customName.value;
-	newStory=newStory.replaceAll("Bob",name);
+	newStory=newStory.replaceAll("Rodrigo",name);
 
   }
 
